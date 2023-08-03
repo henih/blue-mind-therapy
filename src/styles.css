@@ -35,7 +35,7 @@ header h2 {
 header h3 {
   font-size: 24px;
   font-weight: 900;
-  line-height: 1.5;
+  line-height: 1;
   letter-spacing: 5px;
   text-transform: uppercase;
   margin: 0;
@@ -72,7 +72,7 @@ main h2 {
 }
 
 main h3 {
-  font-size: 36px;
+  font-size: 34px;
   font-weight: 700;
   line-height: 1.5;
   text-align: left;
@@ -175,6 +175,11 @@ footer a {
   margin-top: 30px;
 }
 
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
 .card-body {
   padding: 30px;
 }
@@ -186,6 +191,10 @@ footer a {
   text-align: left;
   color: rgba(39, 32, 68, 1);
   opacity: 70%;
+}
+
+.card-header.grid {
+  grid-gap: 0;
 }
 
 .card-footer {
@@ -207,7 +216,7 @@ footer a {
 }
 
 .img-responsive {
-  max-width: 100%;
+  width: 100%;
 }
 
 section {
@@ -258,5 +267,13 @@ section.secondary {
   }
   section {
     padding: 30px;
+  }
+
+  .card-header img {
+    display: none;
+  }
+
+  embed {
+    aspect-ratio: 16/9;
   }
 }
