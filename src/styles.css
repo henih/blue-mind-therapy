@@ -246,6 +246,7 @@ section.instagram-embed {
 .closing-line {
   color: white;
   text-align: center;
+  padding-bottom: 10px 10px;
 }
 
 @media (max-width: 960px) {
