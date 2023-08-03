@@ -243,10 +243,15 @@ section.instagram-embed {
   background: white;
   margin: 30px 0;
 }
-.closing-line {
+footer .closing-line {
   color: white;
   text-align: center;
-  padding-bottom: 10px 10px;
+  font-size: 12px;
+  padding: 0 10px;
+}
+
+footer section {
+  padding: 5px 70px;
 }
 
 @media (max-width: 960px) {
@@ -283,6 +288,11 @@ section.instagram-embed {
 
   .card-header img {
     display: none;
+  }
+
+  footer .closing-line {
+    padding: 0 70px;
+    text-align: left;
   }
 
   embed {
