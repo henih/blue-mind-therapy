@@ -2,10 +2,6 @@ body {
   font-family: Poppins, sans-serif;
 }
 
-.container {
-  max-width: 1300px;
-  margin: 0 auto;
-}
 header {
   background-image: linear-gradient(
       rgba(20, 40, 80, 0.9),
@@ -59,9 +55,6 @@ header a {
   color: rgb(20, 40, 80);
 }
 
-main {
-}
-
 main h2 {
   color: rgb(20, 40, 80);
   font-size: 16px;
@@ -108,7 +101,19 @@ main p {
   color: rgb(20, 40, 80);
   opacity: 70%;
 }
+section {
+  margin: 0 auto;
+  padding: 70px;
+}
 
+section.secondary {
+  background: rgba(248, 248, 248, 1);
+}
+
+section.instagram-embed {
+  background: white;
+  margin: 30px 0;
+}
 footer {
   background-image: linear-gradient(
       rgba(20, 40, 80, 0.8),
@@ -150,6 +155,21 @@ footer a {
   text-decoration: none;
   color: white;
   opacity: 0.7;
+}
+
+footer .closing-line {
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  padding: 0 10px;
+}
+
+footer section {
+  padding: 5px 70px;
+}
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
 }
 
 .grid {
@@ -222,15 +242,6 @@ footer a {
   width: 100%;
 }
 
-section {
-  margin: 0 auto;
-  padding: 70px;
-}
-
-section.secondary {
-  background: rgba(248, 248, 248, 1);
-}
-
 .secondary h2,
 .secondary h3,
 .instagram-embed h2,
@@ -242,25 +253,7 @@ section.secondary {
   margin-bottom: 30px;
 }
 
-section.instagram-embed {
-  background: white;
-  margin: 30px 0;
-}
-footer .closing-line {
-  color: white;
-  text-align: center;
-  font-size: 12px;
-  padding: 0 10px;
-}
-
-footer section {
-  padding: 5px 70px;
-}
-
 @media (max-width: 960px) {
-  .container {
-    max-width: 700px;
-  }
   header {
     padding: 40px 0;
   }
@@ -281,18 +274,12 @@ footer section {
     padding: 8px 18px;
   }
 
-  .grid {
-    grid-template-columns: 1fr;
-    grid-gap: 15px;
-  }
   section {
     padding: 30px;
   }
-
-  .card-header img {
-    display: none;
+  section.instagram-embed {
+    padding: 10px;
   }
-
   footer .closing-line {
     padding: 0 70px;
     text-align: left;
@@ -300,5 +287,17 @@ footer section {
 
   embed {
     aspect-ratio: 16/9;
+  }
+
+  .container {
+    max-width: 700px;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+  }
+
+  .card-header img {
+    display: none;
   }
 }
