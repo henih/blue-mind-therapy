@@ -7,7 +7,10 @@ body {
   margin: 0 auto;
 }
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+  background-image: linear-gradient(
+      rgba(20, 40, 80, 0.9),
+      rgba(20, 40, 80, 0.7)
+    ),
     url(../img/city-of-gold-coast-yZDcQgD00fI-unsplash.jpg);
   background-size: cover;
   background-position: center;
@@ -26,7 +29,7 @@ header h1 {
 }
 
 header h2 {
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 400;
   line-height: 1.5;
   margin: 0;
@@ -53,14 +56,14 @@ header a {
   text-decoration: none;
   display: inline-block;
   margin-top: 30px;
-  color: #272044;
+  color: rgb(20, 40, 80);
 }
 
 main {
 }
 
 main h2 {
-  color: rgba(39, 32, 68, 1);
+  color: rgb(20, 40, 80);
   font-size: 16px;
   font-weight: 700;
   line-height: 1.5;
@@ -76,7 +79,7 @@ main h3 {
   font-weight: 700;
   line-height: 1.5;
   text-align: left;
-  color: rgba(39, 32, 68, 1);
+  color: rgb(20, 40, 80);
   margin: 0;
 }
 main h4 {
@@ -84,7 +87,7 @@ main h4 {
   font-weight: 700;
   line-height: 1;
   text-align: left;
-  color: rgba(39, 32, 68, 1);
+  color: rgb(20, 40, 80);
   margin: 0;
 }
 
@@ -93,7 +96,7 @@ main h5 {
   font-weight: 700;
   line-height: 1;
   text-align: left;
-  color: rgba(39, 32, 68, 1);
+  color: rgb(20, 40, 80);
   margin: 0;
 }
 
@@ -102,14 +105,14 @@ main p {
   font-weight: 400;
   line-height: 1.5;
   text-align: left;
-  color: rgba(39, 32, 68, 1);
+  color: rgb(20, 40, 80);
   opacity: 70%;
 }
 
 footer {
   background-image: linear-gradient(
-      rgba(39, 32, 68, 0.9),
-      rgba(39, 32, 68, 0.9)
+      rgba(20, 40, 80, 0.8),
+      rgba(20, 40, 80, 0.8)
     ),
     url(../img/sacha-verheij-X0rRYtJy0R8-unsplash.jpg);
   background-size: cover;
@@ -189,7 +192,7 @@ footer a {
   font-weight: 400;
   line-height: 1.5;
   text-align: left;
-  color: rgba(39, 32, 68, 1);
+  color: rgb(20, 40, 80);
   opacity: 70%;
 }
 
@@ -201,7 +204,7 @@ footer a {
   padding: 20px 0 10px;
 }
 .button {
-  background: rgba(70, 44, 178, 1);
+  background: rgb(0, 168, 204);
   font-size: 14px;
   font-weight: 700;
   line-height: 1.5;
